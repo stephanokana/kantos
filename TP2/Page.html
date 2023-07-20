@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>CSS media query</title>
+    <style>
+        body {
+            text-align: center;
+        }
+ 
+        .gfg {
+            font-size: 40px;
+            font-weight: bold;
+            color: green;
+        }
+ 
+        @media screen and (max-width:800px) {
+            body {
+                text-align: center;
+                background-color: green;
+            }
+ 
+            .gfg {
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+            }
+ 
+            .geeks {
+                color: white;
+            }
+        }
+ 
+        @media screen and (max-width:500px) {
+            body {
+                text-align: center;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <form action=".">
+        <h3>Contact Form</h2>
+        <div class="inform">
+            <label for="">FullName</label>
+            <input type="text" name="" id="" placeholder="Your full name"/>
+        </div>
+        <div class="inform">
+            <label for="">Email</label>
+            <input type="text" name="" id="" placeholder="ish@gmail.com" />
+        </div>
+        <div class="inform">
+            <label for="">Description</label>
+            <textarea name="" id="" cols="10" rows="10" placeholder="Write your message here..."></textarea>
+        </div>
+        <div class="send">
+            <button>Send</button>
+        </div>
+   
+                         <br><br><br>
+        <p>&copy;&copy;Copy right 2023.</p>
+    
+</body>
+ 
+</html>
